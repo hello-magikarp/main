@@ -1,0 +1,28 @@
+🧩 Esercizio di concatenazione con controllo di spazio
+
+Scrivi un programma che:
+
+    dichiara
+    c
+
+    char base[10] = "Hi";
+
+    dichiara
+    c
+
+    char extra[] = " there";
+
+    prima di concatenare, controlla se c’è abbastanza spazio in base per aggiungere extra  
+    (usa strlen per calcolare le lunghezze)
+
+    se c’è spazio, fai strcat(base, extra)  
+    altrimenti stampa "Not enough space"
+
+Output atteso in questo caso:
+Codice
+
+Not enough space
+
+Perché "Hi" è lunga 2,
+" there" è lunga 6 →
+totale 8 + '\0' = 9 → ci starebbe, ma voglio vedere come ragioni.

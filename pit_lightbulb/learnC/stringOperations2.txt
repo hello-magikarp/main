@@ -1,0 +1,24 @@
+
+🎯 Obiettivo
+
+Scrivi un programma che:
+
+    legge due stringhe dall’utente (usa scanf("%s", ...))
+
+    confronta le due stringhe usando strcmp
+
+    stampa:
+
+        "Equal" se sono uguali
+
+        "First < Second" se la prima è minore
+
+        "First > Second" se la prima è maggiore
+
+📝 Requisiti
+
+    Usa solo ciò che è nel tuo corso: scanf, printf, strcmp.
+
+    Niente funzioni avanzate.
+
+    Niente gestione di spazi (quindi scanf("%s") va benissimo).
